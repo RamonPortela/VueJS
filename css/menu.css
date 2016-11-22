@@ -1,0 +1,181 @@
+@media screen and (max-width: 575px){
+    .menu-mobile li:not(:first-child){
+        display: none;
+    }
+    .menu-mobile li.icone{
+        display: inline-block;
+        float: right !important;
+    }
+    .menu-direto li{
+        float: none !important;
+        text-align: center !important;
+        list-style: none !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .div-menu-mobile-vertical{
+        position: fixed;
+        right: 0;
+        height: 100%;
+        background-color: #ffffff;
+        width: 0;
+        z-index: 2;
+        transition: 0.7s;
+    }
+
+    .div-menu-mobile-vertical li{
+        float: none !important;
+        display: block !important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .menu-mobile li:not(:first-child){
+        display: none;
+    }
+    .menu-mobile li.icone{
+        display: inline-block;
+        float: right;
+    }
+    .menu-direto li{
+        float: none !important;
+        text-align: center !important;
+        list-style: none !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .div-menu-mobile-vertical{
+        position: fixed;
+        right: 0;
+        height: 100%;
+        background-color: #ffffff;
+        width: 0;
+        z-index: 2;
+        transition: 0.7s;
+    }
+
+    .div-menu-mobile-vertical li{
+        float: none !important;
+        display: block !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .menu-mobile li.icone{
+        display: none;
+    }
+
+    .div-menu-mobile-vertical{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .menu-mobile li.icone{
+        display: none;
+    }
+
+    .div-menu-mobile-vertical{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px){
+    .menu-mobile li.icone{
+        display: none;
+    }
+
+    .div-menu-mobile-vertical{
+        display: none;
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.icone{
+    cursor: pointer;
+    font-size: large;
+}
+
+.home{
+    background-color: inherit!important;
+}
+
+.menu{
+    border-bottom: #e7e7e7 1px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-horizontal{
+    width: 100%;
+}
+
+.menu-horizontal ul{
+    width: 100%;
+}
+
+.menu-mobile-horizontal li:not(:first-child) {
+    float: none !important;
+    display: block !important;
+}
+
+.menu-mobile-horizontal .icone{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-mobile-horizontal li:not(:first-child){
+    float: none !important;
+    display: block !important;
+    float: right !important;
+}
+
+.menu-mobile li{
+    position: relative;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.menu-direto li{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 15px 10px;
+}
+
+.menu-vertical{
+    width: 15%;
+    height: 100%;
+}
+
+.menu-fixed-top{
+    z-index: 3;
+    position: fixed;
+    top: 0;
+}
+
+.menu-direita{
+    float: right !important;
+}
+
+.menu-option-horizontal{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    width:100%;
+}
+
+.menu-option-vertical{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+}
