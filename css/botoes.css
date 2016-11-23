@@ -39,6 +39,15 @@
     border-color: #bc2d1b;
 }
 
+.btn-preto{
+    background-color: #222222;
+}
+
+.btn-preto:hover{
+    background-color: #353535;
+    border-color: #0e0e0e;
+}
+
 .btn-linha-azul{
     border: 1px solid #4186bb;
     color: #4186bb;

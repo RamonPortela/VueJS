@@ -1,0 +1,81 @@
+body{
+    background-image: url('../Imagens/Pokemon-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.conteudo{
+    background-color: rgba(255,255,255, 0.8);
+    margin-top:20%;
+}
+
+.campo{
+    border: none;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.tipo{
+    box-shadow: 1px 2px 2px black;
+    text-shadow: 1px 1px 0px black;
+    font-weight: 700;
+    text-align: center;
+    width: 70px;
+    padding: 2px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.normal{
+    background-color: lightgray;
+}
+.fire{
+    background-color: orange;
+}
+.grass{
+    background-color: #00e400;
+}
+.poison{
+    background-color: purple;
+}
+.dragon {
+    background-color: #7f43e2;
+}
+.water{
+    background-color: #4492ca;
+}
+.flying{
+    background-color: #75b4db;
+}
+.steel{
+    background-color: darkgray;
+}
+.fairy{
+    background-color: lightpink;
+}
+.psychic{
+    background-color: deeppink;
+}
+.ghost{
+    background-color: #8a73ee;
+}
+.electric{
+    background-color: yellow;
+}
+.dark{
+    background-color: black;
+}
+.fighting{
+    background-color: #8b3a23;
+}
+.ground{
+    background-color: #ffe782;
+}
+.rock{
+    background: #b8aa5e;
+}
